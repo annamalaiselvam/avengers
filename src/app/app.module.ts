@@ -21,7 +21,8 @@ import { AngularFireAnalyticsModule, ScreenTrackingService } from '@angular/fire
       projectId: "avengers-10c49",
       storageBucket: "avengers-10c49.appspot.com",
       messagingSenderId: "342352870381",
-      appId: "1:342352870381:web:520aa9291a3c5c809345e4"
+      appId: "1:342352870381:web:520aa9291a3c5c809345e4",
+      measurementId: "G-5GJC0RHXZR"
     }),
     AngularFirestoreModule,
     BrowserModule,FormsModule, ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
